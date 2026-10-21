@@ -4,8 +4,9 @@ Public catalog of common authored guidance for coding agents. Content only: the
 tool that installs, pins and connects these guides is
 [agent-guides-cli](https://github.com/Gaan21/agent-guides-cli).
 
-Status: **T05 bounded local preparation accepted.** Ten common technology/topic
-bundles are prepared, not published as a stable release or activated. See the
+Status: **T05 bounded preparation accepted; source available on `develop`** after
+authorized upload. Ten common technology/topic bundles are not a stable release
+or consumer activation. See the
 [agent-guides-cli task board](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/tasks/README.md).
 That board owns order, status and acceptance; this repository has no board of its own.
 
@@ -14,12 +15,13 @@ records non-priority follow-up and the required cross-package impact review.
 
 ## Layout
 
-Local preparation includes Git, Flutter, Astro, Next.js, Supabase, .NET, engineering,
+The published source includes Git, Flutter, Astro, Next.js, Supabase, .NET, engineering,
 guidance maintenance, agent workflow and UI design. Independent R1–R5 correction
 reviews passed their bounded scopes; see the CLI's
 [T05 acceptance](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/tasks/T05-acceptance.md)
-for checks and limits. Public content upload still requires owner authorization;
-this is not a released catalog or instruction to migrate consumers.
+for checks and limits. The owner-authorized T05 source upload is complete; future
+publication actions require their own authorization. This is not a stable release
+or instruction to migrate consumers.
 
 One self-contained bundle per stack or topic, each in its own top-level directory:
 

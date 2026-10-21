@@ -9,6 +9,9 @@ produced by task T05 on the
 [agent-guides-cli task board](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/tasks/README.md).
 That board owns order, status and acceptance; this repository has no board of its own.
 
+Future maintainers: [deferred guidance/lint improvements](docs/deferred-improvements.md)
+records non-priority follow-up and the required cross-package impact review.
+
 ## Layout
 
 One self-contained bundle per stack or topic, each in its own top-level directory:

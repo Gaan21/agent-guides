@@ -11,3 +11,8 @@
 - No private paths, product APIs, product architecture rules, consumer logs,
   classification reports or internal revision pins.
 - No automatic staging, commits, pushes or releases; each needs explicit authorization.
+- Guidance additions, changes and removals require companion-linter impact review,
+  including feasibility of new checks. Read `docs/deferred-improvements.md` for
+  deferred proposals; do not treat them as implemented policy or a migration gate.
+- When asked about pending work, read `docs/deferred-improvements.md` and the CLI
+  task board; report both current delivery work and low-priority follow-up.

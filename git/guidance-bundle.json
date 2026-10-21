@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "git",
+  "entry": "README.md",
+  "files": [
+    "README.md",
+    "workflow.md",
+    "commits.md",
+    "review.md",
+    "checks.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

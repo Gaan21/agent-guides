@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "id": "nextjs",
+  "entry": "README.md",
+  "files": [
+    "README.md",
+    "topics/architecture.md",
+    "topics/boundaries.md",
+    "topics/reads-cache-mutations.md",
+    "topics/server-security.md",
+    "topics/fallbacks.md",
+    "topics/env.md",
+    "topics/quality.md",
+    "topics/integrations.md",
+    "topics/technical-decisions.md",
+    "references.md",
+    "inventory.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

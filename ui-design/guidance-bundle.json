@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "id": "ui-design",
+  "entry": "ENTRY.md",
+  "files": ["ENTRY.md", "INVENTORY.md", "topics/design.md", "topics/accessibility.md", "topics/handoff.md", "references.md", "NOTICE.md", "LICENSE"],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

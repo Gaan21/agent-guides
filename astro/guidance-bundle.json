@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "id": "astro",
+  "entry": "ENTRY.md",
+  "files": [
+    "ENTRY.md", "INVENTORY.md", "topics/foundation.md", "topics/content.md",
+    "topics/styling.md", "topics/seo-performance.md", "topics/env-deploy.md",
+    "topics/quality.md", "topics/design-reference.md", "NOTICE.md", "LICENSE"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

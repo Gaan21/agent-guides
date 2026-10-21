@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "engineering",
+  "entry": "ENTRY.md",
+  "files": [
+    "ENTRY.md", "INVENTORY.md", "topics/code-quality.md", "topics/boundaries.md",
+    "topics/sources.md", "NOTICE.md", "LICENSE"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

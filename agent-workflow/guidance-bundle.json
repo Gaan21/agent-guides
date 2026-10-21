@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "id": "agent-workflow",
+  "entry": "ENTRY.md",
+  "files": ["ENTRY.md", "INVENTORY.md", "topics/reading.md", "topics/validation.md", "topics/review.md", "templates/task.md", "NOTICE.md", "LICENSE"],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

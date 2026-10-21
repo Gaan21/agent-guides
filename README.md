@@ -4,8 +4,8 @@ Public catalog of common authored guidance for coding agents. Content only: the
 tool that installs, pins and connects these guides is
 [agent-guides-cli](https://github.com/Gaan21/agent-guides-cli).
 
-Status: **empty, being prepared.** The first bundle (common Flutter guidance) is
-produced by task T05 on the
+Status: **T05 bounded local preparation accepted.** Ten common technology/topic
+bundles are prepared, not published as a stable release or activated. See the
 [agent-guides-cli task board](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/tasks/README.md).
 That board owns order, status and acceptance; this repository has no board of its own.
 
@@ -14,14 +14,25 @@ records non-priority follow-up and the required cross-package impact review.
 
 ## Layout
 
+Local preparation includes Git, Flutter, Astro, Next.js, Supabase, .NET, engineering,
+guidance maintenance, agent workflow and UI design. Independent R1–R5 correction
+reviews passed their bounded scopes; see the CLI's
+[T05 acceptance](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/tasks/T05-acceptance.md)
+for checks and limits. Public content upload still requires owner authorization;
+this is not a released catalog or instruction to migrate consumers.
+
 One self-contained bundle per stack or topic, each in its own top-level directory:
 
 ```text
-flutter/                 # planned first bundle
+flutter/                 # one selectable bundle
   guidance-bundle.json   # schema 1: id, entry, files, notices
   README.md              # short entry: always-on rules and when to read each topic
   ...                    # topic documents, notices
 ```
+
+Each project explicitly selects its technology/topic bundles, for example Git +
+Flutter + Supabase or Git + Next.js. Catalog availability does not activate every
+bundle. Existing private product contracts are not published as common guidance.
 
 Bundle format:
 [schema 1](https://github.com/Gaan21/agent-guides-cli/blob/develop/docs/preparation.md#self-contained-bundle-schema-1).

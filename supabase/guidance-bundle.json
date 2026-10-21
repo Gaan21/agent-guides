@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "supabase",
+  "entry": "README.md",
+  "files": [
+    "README.md", "inventory.md", "NOTICE.md", "LICENSE",
+    "topics/architecture.md", "topics/schema.md", "topics/tenants.md",
+    "topics/rls.md", "topics/rls-patterns.md", "topics/rls-performance.md",
+    "topics/migrations.md", "topics/local-development.md",
+    "topics/database-tests.md", "topics/deployment.md",
+    "topics/edge-design.md", "topics/edge-auth.md", "topics/edge-tests.md",
+    "topics/performance.md", "topics/monitoring.md",
+    "topics/production.md", "topics/hardening.md"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "id": "guidance-maintenance",
+  "entry": "ENTRY.md",
+  "files": [
+    "ENTRY.md", "INVENTORY.md", "topics/authoring.md", "topics/audit.md",
+    "topics/rights.md", "topics/lint-impact.md", "NOTICE.md", "LICENSE"
+  ],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

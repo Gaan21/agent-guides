@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "id": "dotnet",
+  "entry": "README.md",
+  "files": ["README.md", "architecture.md", "controllers.md", "services-data.md", "security.md", "deployment.md", "performance.md", "testing.md", "test-quality.md", "test-helpers.md", "references.md", "INVENTORY.md", "NOTICE.md", "LICENSE"],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

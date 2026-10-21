@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "flutter",
+  "entry": "AGENTS.md",
+  "files": [
+    "AGENTS.md",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "conventions.md",
+    "failures.md",
+    "layers.md",
+    "offline.md",
+    "operations.md",
+    "provenance.md",
+    "references.md",
+    "resources.md",
+    "testing.md",
+    "time-copy.md",
+    "ui.md",
+    "verification.md"
+  ],
+  "notices": [
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "provenance.md"
+  ]
+}

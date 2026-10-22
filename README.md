@@ -47,7 +47,7 @@ recorded commit, so an update moves every selected bundle together
 - Reusable guidance that is clearly not specific to one product.
 - Never product APIs, private paths, product architecture rules or consumer logs.
   Product-specific or uncertain content goes to that product's private bundle
-  (for WorkTracker: the private `worktracker-architecture-guides` repository).
+  (the private `agent-guides-private-projects` product catalog).
 - Notices and attribution travel with each bundle.
 
 Legacy Flutter delivery stays in

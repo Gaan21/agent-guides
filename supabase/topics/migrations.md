@@ -7,8 +7,14 @@ to the backend owner. Local authoring does not itself authorize a deployment.
 
 | Condition | Required topics |
 | --- | --- |
-| Always | [Schema](schema.md), [RLS](rls.md), [local development](local-development.md), [tests](database-tests.md) |
+| Every migration | [Local development](local-development.md), [tests](database-tests.md) |
+| Table/type/relationship or structural schema changes | [Schema](schema.md) |
+| Policies, permissions, grants, tenant boundaries, security functions or exposed schema changes | [RLS](rls.md) |
 | Deployment | [Deployment](deployment.md) |
+
+Read only matching dependencies: a comment-only migration does not require schema
+design or RLS detail. This never exempts migration validation or the entry's
+always-on security rules; inspect the diff before declaring a topic unaffected.
 
 ## Invariants
 

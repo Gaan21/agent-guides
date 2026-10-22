@@ -15,6 +15,10 @@ outside this public bundle. This is a curated adaptation, not private history ex
 | Tests and references | Original behavior/risk checklists and navigation links; no imported tutorial, configuration or lint implementation |
 | LICENSE | Exact Apache License 2.0 text retained from the reviewed public source |
 
+Entry navigation clarifies use-case, presentation and test routes and actual-text
+rereading after compaction. It changes no Dart obligation, lint ID or configuration;
+reading behavior needs trace review, not a Dart diagnostic.
+
 Technical corrections distinguish real acceptance from absence of exceptions,
 epoch instants from display zones, ownership from lexical matches, and const
 eligibility from universal performance claims. Historical ambiguous policy stays

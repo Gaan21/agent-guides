@@ -13,18 +13,20 @@ visible failures, localized copy and awaited critical completion.
 
 Read relevant topics and their required dependencies **before applicable work**.
 Reuse text still in context; read new topics as scope changes or context is lost.
+After compaction or a summary, reread topics needed for the next edit unless their
+actual text remains visible in context; topic names or read-history are not enough.
 No all-topic or per-patch reading is required.
 
 | Work | Required local reading |
 | --- | --- |
 | Names, declarations or API changes | [Conventions](conventions.md) |
-| Entities, use cases, repositories, sources, mapping or DI | [Layers and values](layers.md), [Failures](failures.md) |
-| State, actions, screens, navigation, themes or settings | [UI](ui.md); [Resources](resources.md) and [Operations](operations.md) for lifecycle/async work |
+| Entities, use cases (any use case, including validation-only), repositories, sources, mapping or DI | [Layers and values](layers.md), [Failures](failures.md) |
+| Presentation: ViewModels, state, actions, screens, navigation, themes or settings | [UI](ui.md); [Resources](resources.md) and [Operations](operations.md) for lifecycle/async work |
 | Controllers, streams, dialogs, forms or disposal | [Resources](resources.md), [Operations](operations.md) |
 | Async work, retries, authentication or completion | [Operations](operations.md), [Failures](failures.md) |
 | Offline storage or synchronization | [Offline](offline.md), [Operations](operations.md), [Failures](failures.md) |
 | Dates, localized copy or diagnostics | [Time and copy](time-copy.md), [Failures](failures.md) |
-| Tests or validation | [Testing](testing.md), [Verification](verification.md), and the affected topic's requirements |
+| Tests or validation (including test-only edits) | [Testing](testing.md), [Verification](verification.md), and the affected topic's requirements |
 | Guidance updates or control claims | [Verification](verification.md) |
 
 Missing required local APIs/contracts block affected implementation: report the

@@ -11,7 +11,10 @@ for boundary changes; [time and copy](time-copy.md) for user messages.
   native debug/release policy. No lexical detector proves a call chain cannot throw.
 - Internal conversion/rethrow behavior follows the installed guard contract; public
   failures retain typed outcomes. Do not invent universal no-throw guarantees or
-  catch all defects merely to satisfy a signature.
+  catch all defects merely to satisfy a signature. Where the companion
+  `no_result_throw` check is enabled, a throw/rethrow in a use-case or repository
+  class, including private helpers, is caught in the same function body or carries
+  a reasoned ignore under the installed guard contract.
 - Preserve original diagnostic context, specific failure type and stack trace when
   adapting errors. Avoid repeated wrapping that erases a specific mapping/validation
   failure. Do not duplicate ad-hoc try/catch when an approved boundary owns capture.

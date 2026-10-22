@@ -27,9 +27,14 @@ Applies to domain/data/DI changes. Required: [failures](failures.md),
   defaults and codec compatibility. A generator annotation does not establish deep
   immutability. Freezed is **not universally mandatory**; existing project generator
   selections remain authoritative, with no forced conversion to another approach.
+  Domain entities/value objects declare no mutable instance fields or public
+  setters. The companion linter checks this shallowly by default; review nested
+  collections and referenced objects yourself.
 - Public domain operations, including simple operations and pure validation with
   expected rejection, return the chosen Result protocol. Infallible getters and
   internal calculations return direct values; do not wrap every helper mechanically.
+  Companion checks exempt synchronous getters and private helpers without proving
+  them infallible, and treat asynchronous getters as operations.
 - Preserve installed use-case/base entrypoints, generic ordering, Params contracts
   and orchestration restrictions. Inspect real APIs before use. Do not copy a base
   implementation from a tutorial or introduce wrappers solely to imitate one.

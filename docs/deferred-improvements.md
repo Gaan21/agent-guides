@@ -14,7 +14,17 @@ record intended review, not implemented lint behavior or consumer migration.
 - Keep guidance content, the Dart linter and the Python delivery CLI separate.
   Existing consumers retain their installed contracts until an authorized change.
 
-## Future review candidates
+## Status — 2026-10-21
+
+The linter (commit `7b11533` and follow-up) now enables every rule by default, with
+per-rule disabling and no presets. Items 1 and 2 are implemented there: Freezed is
+an ordinary rule a project disables if unused, a shallow generator-independent
+immutability rule was added, and Result checks exempt synchronous getters and
+private helpers. Matching guidance lines were added to `flutter/layers.md` and
+`flutter/failures.md`. Item 3 remains a written proposal in the linter's
+`docs/deferred-guidance-alignment.md`; no base-class change.
+
+## Review candidates (original text)
 
 1. **Immutable values without a mandatory generator.** Freezed should not be a
    universal requirement. Assess inexpensive structural checks without claiming

@@ -8,6 +8,9 @@ token/component authority, native platform units and stack exceptions preserved;
 factory/manual closure boundaries made explicit. Product branding/APIs and historical
 source records are excluded. No consumer modernization or activation is implied.
 
+Revised 2026-11-04: Git collaboration rules removed here and kept only in the git
+bundle (owner decision); non-Git closure, workflow and release limits retained.
+
 External community UI skills, tutorial prose, scripts, generated caches and datasets
 are excluded pending separate provenance/rights review. Only original local governance
 and technical reference links are included; this license does not relicense third-party

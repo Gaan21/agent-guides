@@ -9,6 +9,9 @@ Task planning, kanban, numeric task caps, loaders, hooks, executable helpers and
 duplicated client metadata are excluded. Independent review remains optional and
 host-controlled. Private product contracts and historical evidence are not included.
 
+Revised 2026-11-04: Git collaboration rules removed here and kept only in the git
+bundle (owner decision); non-Git closure, workflow and release limits retained.
+
 No third-party skill bodies, tutorials, configurations, code or data are bundled.
 Reference and technology names grant no trademark rights or endorsement. The
 standard license appendix placeholders are not project attribution. This content

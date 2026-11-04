@@ -10,6 +10,9 @@ by relevant blocks and complete final validation; factory workflow ownership.
 Product-specific material, source history and retired executable helpers are not
 included. No consumer upgrade or activation is performed by these documents.
 
+Revised 2026-11-04: Git collaboration rules removed here and kept only in the git
+bundle (owner decision); non-Git closure, workflow and release limits retained.
+
 Official documentation and community resources are linked references, not copied
 tutorials, configurations, implementations or datasets. Their rights remain with
 their respective owners; Apache-2.0 here does not relicense them. Technology names

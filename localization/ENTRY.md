@@ -8,7 +8,8 @@ own contract say which files, tools and languages apply.
 ## Always
 
 - No change introduces untranslated product text in the outputs it creates or
-  changes. Every product text reaches its consumer in each supported language, in
+  changes, nor is accepted with relevant unjustified doubts about the affected
+  path. Every product text reaches its consumer in each supported language, in
   the effective language chosen for that screen or request.
 - Product text comes only from the project's localization system. Never fall back
   to the base language or to a technical key when a translation is missing.
@@ -16,9 +17,11 @@ own contract say which files, tools and languages apply.
   never shown. An error that can reach a person carries a code that the UI turns
   into its translation; unknown codes also get a localized, safe output.
 - A legitimate literal in code is justified on the line before with
-  `i18n-ok: <reason>`. A justification is not a general exception.
-- Do not lower a check, delete keys or fabricate references to make a report pass.
-  A pre-existing defect outside the scope is reported, not silently fixed or hidden.
+  `i18n-ok: <reason>`; detectors list it and the reviewer decides whether the
+  reason holds. A justification is not a general exception.
+- Do not widen the scope, lower a check, delete keys or fabricate references to
+  make a report pass. A pre-existing defect outside the scope is reported and
+  escalated to the owner, not fixed without authorization or hidden.
 - If the project or its localization system is not covered by the available
   checks, stop accepting the affected change and ask; never assume there is no
   localization.

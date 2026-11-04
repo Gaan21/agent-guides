@@ -25,5 +25,5 @@ Dependencies: [testing](testing.md); for API coverage also [controllers](control
   code or orphan TODOs; record issues/justification. Document complex test intent,
   edge-case rationale and meaningful test groups.
 - Coverage tooling is project/host-selected; no package installation or global check
-  redesign is authorized. Missing/failing required checks block closure/commit/push;
+  redesign is authorized. Missing/failing required checks block closure;
   distinguish unavailable evidence from passing behavior. Factory owns its pipeline.

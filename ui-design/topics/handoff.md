@@ -33,5 +33,5 @@ Applies when delivering specifications or reviewing finished design. Depends on
   No external default stack, theme or new global style overrides the selected stack.
 - Use the factory's established handoff/review/checks; do not create a second result
   file, reviewer, branch or publication routine. Manual work uses the entry's scoped
-  validated-closure rule. Missing/failing required checks block closure and commit/push;
+  validated-closure rule. Missing/failing required checks block closure;
   report the gap and consult instead of claiming the design is complete.

@@ -14,10 +14,8 @@ and accessibility decisions. Not a universal framework manual or a task planner.
   Respect platform target sizes, reduced motion and relevant semantic roles.
 - Specify all applicable states, including empty, loading and error, not just the
   happy path. Validate both modes when dark mode is active.
-- Factory owns tools, branches, review and publication: add no parallel workflow.
-  Manual validated closure uses scoped commit/push on the agreed branch without
-  another prompt, unless repository/host instructions require separate authorization.
-  Missing/failing required checks block closure and commit/push; report and consult.
+- Factory owns tools, review and publication: add no parallel workflow.
+  Missing/failing required checks block closure; report and consult.
 
 ## Read for the affected design
 

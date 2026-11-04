@@ -24,11 +24,9 @@ Always preserve layer boundaries, explicit outcomes for expected domain rejectio
 input/access checks, secret safety and truthful validation results. Selection does
 not authorize consumer changes, deployment or a database-provider switch.
 
-Factory mode: host mechanisms own tools, branches, checks, PRs and publication;
-do not create a competing pipeline. Manual mode: respect the agreed branch; scoped
-commit/push follows successful authorized closure without repeated approval. A PR
-is the default integration route, not a command to leave an agreed branch.
-Missing/failing mandatory checks block closure and commit/push; report and consult
+Factory mode: host mechanisms own tools, checks and publication; do not create a
+competing pipeline.
+Missing/failing mandatory checks block closure; report and consult
 the owner/host blocked-work mechanism. No task-planning or size/time caps here.
 
 See [inventory](INVENTORY.md) and [notices](NOTICE.md). Presence is not proof of

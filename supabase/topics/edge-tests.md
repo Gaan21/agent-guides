@@ -35,7 +35,7 @@ the approved disposable environment. No sensitive fixtures or unapproved real ef
 Run the applicable Deno unit/integration tests and verify clean formatting before
 commit/deploy. Use the host-approved permission profile; broad Deno permissions in
 an example are not a grant. Capture actual command/exit status; unavailable/failing
-required tests block closure/commit/push. CI must run applicable DB and Edge tests
+required tests block closure. CI must run applicable DB and Edge tests
 before deploy; staging smoke complements, not replaces, those tests.
 
 Keep the test pyramid deliberate: SQL/RLS/function tests at the base, handler unit

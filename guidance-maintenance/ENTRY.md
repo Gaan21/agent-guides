@@ -19,13 +19,11 @@ and installs no tool, lint, hook or configuration.
 - Every guidance addition, change or removal needs a bidirectional
   [linter impact review](topics/lint-impact.md).
 - Original text only under its license; third parties by link and notice.
-- **Factory-managed work:** the factory owns branches, tools, validation and
-  publication. Do not add branches, checks, PRs or publication of your own.
-- **Manual work:** keep the agreed branch. At successful validated closure, commit
-  and push the task's validated scope without another prompt, unless repository
-  instructions or host protections require separate authorization. No merges,
-  releases, other-repository publication or consumer activation follow.
-- A missing or failing mandatory check blocks closure and commit/push: report the
+- **Factory-managed work:** the factory owns tools, validation and publication. Do
+  not add checks or publication of your own.
+- Closing work implies no releases, other-repository publication or consumer
+  activation.
+- A missing or failing mandatory check blocks closure: report the
   actual results and consult the owner or host blocked-work mechanism.
 - This bundle defines no task planning, kanban, task creation or line/file/duration
   task limits; the owner schedules audits.

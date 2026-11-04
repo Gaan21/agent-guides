@@ -24,11 +24,9 @@ load every topic or reread for every patch. Do not apply another stack's rules b
 | Risky/multi-surface decisions, optional diagnostics | [Technical decisions](topics/technical-decisions.md) |
 | API doubts, upgrades, external contrast | [Reference policy](references.md) |
 
-Use the project's agreed mode: factory mechanisms own tools/branches/PR/publication;
-do not create a parallel workflow. Manual work respects the agreed branch, including
-develop, and performs scoped commit/push at validated closure without another prompt.
-Required missing/failing checks block closure and commit/push; report actual results
-and consult owner/host blocked-work handling. PR is the integration default, not a
-command to leave an agreed branch or bypass protections. No release authorization.
+Use the project's agreed mode: factory mechanisms own tools/publication; do not
+create a parallel workflow. Required missing/failing checks block closure; report
+actual results and consult owner/host blocked-work handling. Do not bypass
+protections. No release authorization.
 
 Local [inventory](inventory.md), [notices](NOTICE.md) and [license](LICENSE).

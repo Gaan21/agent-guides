@@ -23,8 +23,7 @@ pull fallback. Missing CI credentials mean local validation/reporting, not permi
 to deploy manually. A guide never authorizes remote effects or credential changes.
 
 Validate migration reset, SQL lint, DB/RLS tests and applicable Deno tests/format
-before deployment. All required failures or missing checks block closure and
-commit/push. No best-effort smoke command can mask a mandatory test failure.
+before deployment. All required failures or missing checks block closure. No best-effort smoke command can mask a mandatory test failure.
 Use separate staging/production projects and per-environment service secrets;
 store approved credentials in the host secret store, never source/logs.
 
@@ -58,8 +57,6 @@ state/tombstones until backend acknowledgment and do not reject accepted local w
 merely because remote confirmation is unavailable. Do not extend offline behavior
 to online-only features without an explicit product decision.
 
-Factory handles publication. Manual scoped commit/push occurs only after validated
-completion on the agreed branch; PR default does not mandate another branch or PR
-where the owner integration mechanism already exists. Release/merge/protection
-bypass or additional publication is not implied by manual closeout permission.
+Factory handles publication. Release, protection bypass or additional publication
+is not implied by closing work.
 [Official migration deployment](https://supabase.com/docs/guides/deployment/database-migrations).

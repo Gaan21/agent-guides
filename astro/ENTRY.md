@@ -22,14 +22,13 @@ and secret isolation. Unknown guidance: report the gap and retain these invarian
 | Tooling, lint/check/build, formatter, CI or gate failures | [Quality](topics/quality.md) |
 
 All changes retain the [quality contract](topics/quality.md): factory work uses
-its own validation/branch/publication mechanism, without a second workflow.
+its own validation/publication mechanism, without a second workflow.
 Manual work gets feedback by blocks/relevant changes, then full final validation:
 `pnpm format:check`, `pnpm lint`, `pnpm astro check`, `pnpm build`, in that order
 through `pnpm validate`. CI retains all four; SEO builds must have no warnings.
-Missing/failing required checks block closure and commit/push: report actual
+Missing/failing required checks block closure: report actual
 results and consult the owner/host blocked-work mechanism. Never weaken gates.
-Manual successful validated closure performs scoped commit/push on the agreed
-branch without another prompt; no extra branch, merge, release or activation is
-authorized. Unknown mode/authority requires clarification.
+No release or activation is authorized. Unknown mode/authority requires
+clarification.
 
 [Inventory and conditions](INVENTORY.md) · [License and notices](NOTICE.md)

@@ -44,10 +44,8 @@ until actual cleanup evidence supports any approved relaxation.
 - Report passed/failed/skipped/not-run separately, command/status/root and reasons,
   changed files, unresolved contracts and residual risk. Analyzer success is not
   product correctness. Missing/failing mandatory checks block validated closure.
-- Factory host owns branch/tool/check/PR/publication flow; do not duplicate it.
-  Manual validated closure performs scoped commit/push on the agreed branch without
-  another prompt. Do not stage unrelated work, change agreed branches, bypass
-  protections or infer merge/release/deploy/private-upload permission. Unknown mode
+- Factory host owns tool/check/publication flow; do not duplicate it. Do not
+  bypass protections or infer release/deploy/private-upload permission. Unknown mode
   or unavailable required checks go to owner/host blocked-work handling.
 - Suppressions/exclusions and invariant exceptions require explicit approval and
   traceable justification plus covering/recovery evidence required by the consumer.

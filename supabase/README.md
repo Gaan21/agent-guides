@@ -12,11 +12,9 @@ This independently selectable bundle supplies guidance, not executable tooling.
   migrations. Never make ad-hoc remote schema changes or bypass auth for tests.
 - Identify the backend owner: a consumer must escalate structural changes rather
   than execute the owner's workflow. Local product contracts remain authoritative.
-- Factory mechanisms own tools, branches, checks and publication; do not duplicate
-  them. In manual mode respect the agreed branch; scoped commit/push follows
-  validated completion without another prompt. PR is the integration default, not
-  permission to leave an agreed branch or bypass protections.
-- Missing/failing mandatory checks block closure, commit and push. Report actual
+- Factory mechanisms own tools, checks and publication; do not duplicate them or
+  bypass protections.
+- Missing/failing mandatory checks block closure. Report actual
   results and use the owner/host blocked-work mechanism. Deployment, credentials,
   remote writes and releases require their own authorized mechanism.
 

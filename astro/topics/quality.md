@@ -31,11 +31,9 @@ The adopted tools use eslint-plugin-astro and prettier-plugin-astro; their actua
 configured versions/rules, not plugin names alone, determine diagnostic coverage.
 
 Record actual commands/results, scope and unavailable checks. Missing/failing
-mandatory checks block closure and commit/push; consult owner/host blocked-work
+mandatory checks block closure; consult owner/host blocked-work
 handling. Never remove/skip gates for speed or call a pattern-counted helper's
-“clean” message proof. Manual successful validated closure performs scoped
-commit/push without another prompt on the agreed branch; PR is integration
-default, not a branch-away mandate. No unapproved merge/release/activation.
+“clean” message proof. No unapproved release/activation.
 
 ## Before changing tooling
 

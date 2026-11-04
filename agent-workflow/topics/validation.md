@@ -23,7 +23,7 @@ this document does not install a runner or invent universal technology commands.
 
 ## Blocked work
 
-- A required check that fails or cannot run blocks closure and commit/push. Preserve
+- A required check that fails or cannot run blocks closure. Preserve
   its output, identify the affected scope and missing tool/input/access, and consult
   the owner or existing host blocked-work flow. Never fabricate success.
 - Do not suppress lint, weaken a test/baseline, skip a guard or add a generic TODO
@@ -42,8 +42,7 @@ this document does not install a runner or invent universal technology commands.
   a product's markers nor waives those obligations when no task file exists.
 - Offer independent review when useful under [review](review.md); no mandatory
   extra model, fanout, installation or result file is introduced.
-- Factory closure/review/publication remains with the host. Manual validated closure
-  performs scoped commit/push under the entry's authorization boundary; leave unrelated
-  work intact and report local commit and remote push outcomes separately.
+- Factory closure/review/publication remains with the host. Leave unrelated work
+  intact.
 - A review offer or agent claim does not establish acceptance. Read-only advice or
   research does not automatically become a development change to commit.

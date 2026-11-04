@@ -33,9 +33,8 @@ Missing required local APIs/contracts block affected implementation: report the
 gap, do not invent interfaces or fall back to retired loading/scripts. Consult
 [upstream](references.md) only for unresolved decisions; stop when resolved.
 
-Factory work defers branches, tools, checks, PRs and publication to its host flow.
-Manual validated closure performs scoped commit/push on the agreed branch without
-another prompt; missing/failing mandatory checks block closure and commit/push.
+Factory work defers tools, checks and publication to its host flow.
+Missing/failing mandatory checks block closure.
 Clarify unknown mode/authority. This is not release, deployment, consumer migration,
 new lint activation or private-content publication authorization. Suppressions and
 policy changes need explicit approval. Preserve working consumer delivery.

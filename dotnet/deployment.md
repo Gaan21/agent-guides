@@ -30,7 +30,6 @@ a reference labels a finding low priority. Do not claim historical findings curr
   origins, credentials or product commands in shared guidance.
 
 Record actual results and justified exceptions. Missing/failing mandatory checks
-block closure/commit/push; consult owner/host rather than treating unavailable checks
-as passed. Factory chooses execution/tool/publication mechanisms; manual work keeps
-the agreed branch and scopes any authorized validated closeout. No automatic
+block closure; consult owner/host rather than treating unavailable checks
+as passed. Factory chooses execution/tool/publication mechanisms. No automatic
 environment changes, dependencies, certificates, external registration or secrets.

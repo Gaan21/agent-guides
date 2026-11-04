@@ -11,13 +11,10 @@ reading, evidence and review, not planning, task creation or runtime installatio
   dependencies. Reuse content still in context; consult new topics as work changes.
 - Use the same retained source, selection, engine, policy and overlay identity for
   implementation and review. Never independently resolve latest or edit live snapshots.
-- Factory mechanisms own tools, branches, validation, review and publication. Do
-  not add another branch, tool pipeline, reviewer, result file or Git step.
-- Manual work keeps the agreed branch. After successfully validated closure,
-  perform scoped commit/push without another prompt, unless repository instructions
-  or host protections require separate authorization. No unrelated staging,
-  blanket staging, release, merge, deployment or activation is implied.
-- A missing or failing mandatory check blocks closure and commit/push: report it
+- Factory mechanisms own tools, validation, review and publication. Do not add
+  another tool pipeline, reviewer or result file. Closing work implies no release,
+  deployment or activation.
+- A missing or failing mandatory check blocks closure: report it
   and consult the owner or existing host blocked-work mechanism. Do not bypass guards.
 - Keep output concise: changed behavior/files, actual checks and remaining risks.
   Distinguish evidence from claims; do not disclose secrets or customer data.

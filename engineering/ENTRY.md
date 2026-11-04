@@ -15,13 +15,11 @@ installs no tool, lint, hook or configuration.
   preserve them, never revert them, and do not assume they are safe to build on.
 - Leave brief breadcrumbs for future context in the closure record, commit or PR.
 - Add no lint/analyzer suppression or exclusion without explicit user approval.
-- **Factory-managed work:** the factory owns branches, tools, validation and
-  publication. Do not add branches, checks, PRs or publication of your own.
-- **Manual work:** keep the agreed branch. At successful validated closure, commit
-  and push the task's validated scope without another prompt, unless repository
-  instructions or host protections require separate authorization. No merges,
-  releases or consumer activation follow. Unclear mode or authority: clarify first.
-- A missing or failing mandatory check blocks closure and commit/push: report the
+- **Factory-managed work:** the factory owns tools, validation and publication. Do
+  not add checks or publication of your own.
+- Closing work implies no releases or consumer activation. Unclear mode or
+  authority: clarify first.
+- A missing or failing mandatory check blocks closure: report the
   actual results and consult the owner or host blocked-work mechanism.
 - This bundle defines no task planning, kanban or line/file/duration task limits.
 

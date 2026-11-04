@@ -15,8 +15,8 @@ does not install scripts, configs, plugins, dependencies or runtime mechanisms.
 Manual feedback is by relevant blocks/changes with complete final applicable gates,
 not an invented per-file/task-size cadence. Factory owns its checks/mechanism; do
 not add a competing pipeline. Required checks must actually pass: missing tools,
-environment failure or absent coverage cannot be relabeled success. Block closure
-and commit/push, report exact results/impact and consult owner/host blocked handling.
+environment failure or absent coverage cannot be relabeled success. Block closure,
+report exact results/impact and consult owner/host blocked handling.
 Do not hide failures, lower lint severity or add ignores/exclusions without approval.
 
 ## Risk matrix (base gates always remain)

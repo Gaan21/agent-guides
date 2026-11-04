@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "id": "localization",
+  "entry": "ENTRY.md",
+  "files": ["ENTRY.md", "INVENTORY.md", "topics/coverage.md", "topics/evidence.md", "NOTICE.md", "LICENSE"],
+  "notices": ["NOTICE.md", "LICENSE"]
+}

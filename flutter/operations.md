@@ -30,13 +30,19 @@ Applies to async operations and lifecycle initialization. Required:
   of ownership or a universal ban on asynchronous initialization.
 - Preserve loading-before-await and expected-failure handling for initial loads.
   Programmer Error behavior follows local policy, not a blanket catch-all promise.
-- Detached work requires noncritical purpose, exact selected justification syntax,
-  an error owner and completion/reporting policy. When categorized reasons are
-  selected use `unawaited-ok: category - reason` in the installed accepted position.
-  Typical selected categories include disposal, synchronous callbacks, telemetry,
-  cleanup, post-frame initialization and noncritical prefetch; inspect actual syntax.
+- Await and check the result if the next step depends on the outcome, including
+  a returned `Failure`. For genuinely detached work, propose the exact call for
+  owner or human reviewer approval: explain why it is not awaited, who handles
+  failure and what happens if it finishes late. Follow the project's approved
+  exception record. In legacy comment mode the linter may still recognize
+  categorized `unawaited-ok` comments; a comment is not approval.
 - Do not hide discarded work in microtasks, wrapper Futures, timers or ignore calls.
   A tag does not establish harmlessness; preserve consumer approval for suppressions.
+
+Lint coverage: `avoid_unawaited` supports opt-in call manifests and retains its
+legacy default. The upstream future lints and
+`avoid_async_wrapper_hides_unawaited` still apply. They cannot establish
+criticality or lifecycle safety; review and test those separately.
 
 ## Retry and authentication
 
